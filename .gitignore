@@ -1,0 +1,79 @@
+# File: .gitignore
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Git j
+*.orig
+*.rej
+
+# CMake (all generators)
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake-build-*/
+CMakeUserPresets.json
+CMakePresets.json
+Testing/
+Makefile
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+cmake_install.cmake
+
+# Build trees
+build/
+build-*/
+out/
+
+# Ninja
+build.ninja
+.ninja_deps
+.ninja_log
+
+# Visual Studio / MSVC
+.vs/
+*.sln
+*.vcxproj*
+*.user
+*.unsuccessfulbuild
+ipch/
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
+x64/
+x86/
+ARM*/
+
+# MSVC objects & artifacts
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.tlog/
+*.log
+*.lastbuildstate
+*.cachefile
+*.pch
+
+# Binaries & libs
+/bin/
+/lib/
+*.exe
+*.dll
+*.lib
+*.exp
+
+# Project artifacts
+u233_gamma_n_u232
+u233_gamma_n_u232.exe
+
+# Temporary files
+*.tmp
+*.bak
+*~

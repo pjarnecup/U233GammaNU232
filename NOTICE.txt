@@ -1,0 +1,17 @@
+This project depends on Geant4 and follows the Geant4 Software License terms.
+
+
+Acknowledgment:
+- This work makes use of the Geant4 toolkit (© the Geant4 collaboration).
+Please cite the Geant4 reference papers as requested by the collaboration.
+
+
+Redistribution note:
+- If you redistribute binaries built against Geant4, include the Geant4
+license text and notices from your Geant4 installation (often under
+`share/Geant4-*/*license*`).
+
+
+Third?party data/models:
+- If you use evaluated data (e.g., TENDL/other libraries), ensure their
+respective licenses/attribution terms are met in your distribution.
